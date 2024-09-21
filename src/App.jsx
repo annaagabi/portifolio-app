@@ -1,18 +1,36 @@
-import styles from './App.module.css' // O 'module' adiciona segurança ao arquivo (ele acrescenta hash)
+import { useEffect } from 'react';
+import styles from './App.module.css'
+import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon } from './assets/images';
 
-import LogoDefault from './assets/image/logo-default.svg'
-import LogoOutline from './assets/image/logo-outline.svg'
-import ArrowDown from './assets/image/arrow-down.svg'
+export default function App() {
 
-export default function App(){
   return (
     <div className={styles.portifolioContainer}>
       <header className={styles.header}>
         <div className={styles.headerTitle}>
-          <img src={LogoDefault} alt="Imagem do logo do portifolio" />
+          <img src={LogoDefault} alt="Imagem do portfolio logo" />
           <h1>Anna</h1>
         </div>
+        <nav className={styles.nav}>
+          <a href="">
+            <p><span>#</span> home</p>
+          </a>
+          <a href="">
+            <p><span>#</span> works</p>
+          </a>
+          <a href="">
+            <p><span>#</span> about-me</p>
+          </a>
+          <a href="">
+            <p><span>#</span> contacts</p>
+          </a>
+          <select>
+            {/* <img src={ArrowDown} alt="icone de seta para baixo" /> */}
+            <option>EN</option>
+            <option>PT-BR</option>
+          </select>
+        </nav>
       </header>
     </div>
-  )
+  );
 }

@@ -5,3 +5,5 @@ export {default as GitHubIcon} from './github.svg';
 export {default as DribbleIcon} from './dribble.svg';
 export {default as FigmaIcon} from './figma.svg';
 export {default as HeroMan} from './hero-man.svg'
+export {default as Marks} from './marks.svg'
+export {default as ArrowRight} from './arrow-right.svg'

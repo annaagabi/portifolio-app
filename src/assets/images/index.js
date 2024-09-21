@@ -7,3 +7,8 @@ export {default as FigmaIcon} from './figma.svg';
 export {default as HeroMan} from './hero-man.svg'
 export {default as Marks} from './marks.svg'
 export {default as ArrowRight} from './arrow-right.svg'
+export {default as ProjectOne} from './project-1.svg'
+export {default as ProjectTwo} from './project-2.svg'
+export {default as ProjectThree} from './project-3.svg'
+export {default as MoreEqual} from './more-equal.svg'
+export {default as ArrowEquivalence} from './arrow-equivalence.svg'

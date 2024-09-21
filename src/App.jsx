@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks, ArrowRight } from './assets/images';
+import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks, ArrowRight, ProjectOne, ProjectTwo, ProjectThree, MoreEqual, ArrowEquivalence } from './assets/images';
 
 export default function App() {
 
@@ -75,14 +75,79 @@ export default function App() {
         </section> */}
 
         <section className={styles.projectContainer}>
-          <div className={styles.projectTitle}>
-            <h2><span>#</span>projects</h2>
-            <div className={styles.linePurple}></div>
-            <p>View all</p>
-            <img src={ArrowRight} alt="Seta branca com ondulações apontado para a direita" />
+          <div className={styles.projectContent}>
+            <div className={styles.projectTitle}>
+              <h2><span>#</span>projects</h2>
+              <div className={styles.linePurple}></div>
+            </div>
+            <div className={styles.view}>
+                <p>View all</p>
+                <img src={ArrowRight} alt="Seta branca com ondulações apontado para a direita" />
+              
+            </div>
           </div>
 
-          
+          <div className={styles.cardContainer}>
+
+            <div className={styles.card}>
+              <img src={ProjectOne} alt=""/>
+                <div className={styles.cardTools}>
+                  <p>HTML</p>
+                  <p>SCSS</p>
+                  <p>Python</p>
+                  <p>Flask</p>
+                </div>
+                <h4>ChertNodes</h4>
+                <div className={styles.cardApps}>
+                  <p>Minecraft</p>
+                  <p>servers</p>
+                  <p>hosting</p>
+                </div>
+                <div className={styles.cardButtons}>
+                  <button>Live<img src={ArrowEquivalence} alt="" /></button>
+                  <button>Cached<img src={MoreEqual} alt="" /></button>
+                </div>
+            </div>
+            <div className={styles.card}>
+              <img src={ProjectTwo} alt=""/>
+                <div className={styles.cardTools}>
+                  <p>React</p>
+                  <p>Express</p>
+                  <p>Discord.js</p>
+                  <p>Node.js</p>
+                  <p>HTML</p>
+                  <p>SCSS</p>
+                  <p>Python</p>
+                  <p>Flask</p>
+                </div>
+                <h4>ProtectX</h4>
+                <div className={styles.cardApps}>
+                  <p>Discord</p>
+                  <p>anti-crash</p>
+                  <p>bot</p>
+                </div>
+                <div className={styles.cardButtons}>
+                  <button>Live<img src={ArrowEquivalence} alt="" /></button>
+                </div>
+            </div>
+
+            <div className={styles.card}>
+              <img src={ProjectThree} alt=""/>
+                <div className={styles.cardTools}>
+                  <p>CSS</p>
+                  <p>Express</p>
+                  <p>Node.js</p>
+                </div>
+                <h4>Kahoot Answers Viewer</h4>
+                <div className={styles.cardApps}>
+                  <p>Get answers to your kahoot quiz</p>
+                </div>
+                <div className={styles.cardButtons}>
+                  <button>Live<img src={ArrowEquivalence} alt="" /></button>
+                </div>
+            </div>
+
+          </div>
         </section>
 
     </div>

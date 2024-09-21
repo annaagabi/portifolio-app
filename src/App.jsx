@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon } from './assets/images';
+import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks } from './assets/images';
 
 export default function App() {
 
@@ -47,7 +47,30 @@ export default function App() {
 
         </nav>
       </header>
-      <main></main>
+
+      <main>
+
+        <section className={styles.mainContainer}>
+          <div className={styles.heroDescription}>
+            <h2>Anna is a <span>web designer</span> and <span>front-end developer</span></h2>
+            <p>He crafts responsive websites where technologies meet creativity</p>
+            <button>Contact me!!</button>
+          </div>
+
+          <div className={styles.heroImage}>
+            <img src={HeroMan} alt="" />
+
+            <div className={styles.imageLegend}>
+              <div className={styles.square}></div>
+              <p>Currently working on <span>Portfolio</span></p>
+            </div>
+
+          </div>
+        </section>
+
+       
+      </main>
+
     </div>
   );
 }

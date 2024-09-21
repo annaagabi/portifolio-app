@@ -167,3 +167,14 @@ body{
   background-color: var(--purple-color);
   margin-left: 8px;
 }
+
+/* .phrasesContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: right;
+}
+.phrasesContainer p{
+  text-align: right;
+} */

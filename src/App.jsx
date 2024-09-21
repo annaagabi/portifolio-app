@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks } from './assets/images';
+import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks, ArrowRight } from './assets/images';
 
 export default function App() {
 
@@ -67,9 +67,23 @@ export default function App() {
 
           </div>
         </section>
-
        
       </main>
+       {/* <section className={styles.phrasesContainer}>
+          <p>With great power comes great electricity bill</p>
+          <p>- Dr. Who</p>
+        </section> */}
+
+        <section className={styles.projectContainer}>
+          <div className={styles.projectTitle}>
+            <h2><span>#</span>projects</h2>
+            <div className={styles.linePurple}></div>
+            <p>View all</p>
+            <img src={ArrowRight} alt="Seta branca com ondulações apontado para a direita" />
+          </div>
+
+          
+        </section>
 
     </div>
   );

@@ -4,3 +4,4 @@ export {default as LogoDefault} from './logo-default.svg'
 export {default as GitHubIcon} from './github.svg';
 export {default as DribbleIcon} from './dribble.svg';
 export {default as FigmaIcon} from './figma.svg';
+export {default as HeroMan} from './hero-man.svg'

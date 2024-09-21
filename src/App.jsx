@@ -42,7 +42,7 @@ export default function App() {
           <select>
             {/* <img src={ArrowDown} alt="icone de seta para baixo" /> */}
             <option>EN</option>
-            <option>PT-BR</option>
+            <option selected>PT-BR</option>
           </select>
 
         </nav>

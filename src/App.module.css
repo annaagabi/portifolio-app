@@ -60,14 +60,14 @@ body{
  align-items: center;
 }
 
-.nav button {
+.nav select {
   display: flex;
   background-color: transparent;
   justify-content: center;
   align-items: center;
   color: var(--gray-color);
   border: none;
-  width: 34px;
+  width: 42px;
   height: 21px;
   gap: 4px;
 }
@@ -92,3 +92,5 @@ body{
   height: 191px;
   background-color: var(--gray-color);
 }
+
+

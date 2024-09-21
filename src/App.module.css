@@ -5,6 +5,10 @@
   --white-color: #FFFFFF;
 }
 
+body{
+  background-color: var(--background-color);
+}
+
 .portifolioContainer{
   width: 100%;
   display: flex;
@@ -70,4 +74,21 @@
 
 .nav span {
   color: var(--purple-color);
+}
+
+.asideMedia{
+  width:32px;
+  height: 311px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 17px;
+}
+
+.line{
+  width: 1px;
+  height: 191px;
+  background-color: var(--gray-color);
 }

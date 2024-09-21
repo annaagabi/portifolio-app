@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
 :root{
   --purple-color: #C778DD;
   --gray-color: #ABB2BF;
@@ -7,6 +9,7 @@
 
 body{
   background-color: var(--background-color);
+  font-family: 'Fira Code', sans-serif;
 }
 
 .portifolioContainer{
@@ -93,4 +96,74 @@ body{
   background-color: var(--gray-color);
 }
 
+.mainContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 62px;
+}
 
+.heroDescription{
+  width: 537px;
+  margin-top: 74px;
+}
+
+.heroDescription h2{
+  color: var(--white-color);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.heroDescription span{
+  color: var(--purple-color);
+}
+
+.heroDescription p{
+  color: var(--gray-color);
+  font-size: 16px;
+}
+
+.heroDescription button{
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid var(--purple-color);
+  background-color: var(--background-color);
+  width: 148px;
+  height: 37px;
+}
+
+.heroImage img{
+  width: 469px;
+  height: 386px;
+}
+
+.imageLegend{
+  width: 402px;
+  height: 37px;
+  border: 1px solid var(--gray-color);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 31px;
+  margin-top: 0;
+}
+
+.imageLegend p{
+  color: var(--gray-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+.imageLegend span{
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.square{
+  width: 16px;
+  height: 16px;
+  background-color: var(--purple-color);
+  margin-left: 8px;
+}

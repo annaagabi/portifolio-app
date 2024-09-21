@@ -178,3 +178,130 @@ body{
 .phrasesContainer p{
   text-align: right;
 } */
+
+.projectContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:48px;
+  margin-top: 64px;
+}
+
+.projectContent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 210px;
+}
+.projectTitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.projectTitle h2{
+  color: var(--white-color);
+  font-size: 32px;
+  font-weight: 500;
+}
+.projectTitle span{
+  color: var(--purple-color);
+}
+
+.linePurple{
+  width: 511px;
+  height: 1px;
+  background-color: var(--purple-color);
+}
+
+.view{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.view p{
+  color: var(--white-color);
+  font-size: 16px;
+}
+
+.cardContainer{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap:16px;
+}
+
+.card{
+  border: 1px solid var(--white-color);
+  width: 330.58px;
+  height: auto;
+}
+
+.card img{
+  border-bottom: 1px solid var(--white-color);
+}
+.card h4{
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--white-color);
+  margin: 0;
+  margin: 16px 16px auto 16px;
+}
+
+.cardTools{
+  border-bottom: 1px solid var(--white-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 8px;
+  flex-wrap: wrap;
+}
+
+.cardTools p{
+  font-size: 16px;
+  color: var(--gray-color);
+}
+
+.cardApps{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 16px;
+}
+
+.cardApps p{
+  font-size: 16px;
+  color: var(--gray-color);
+}
+
+.cardButtons{
+  display: flex;
+  gap:16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+.cardButtons button:first-child{
+  background-color: var(--background-color);
+  width: 109px;
+  height: 37px;
+  border: 1px solid var(--purple-color);
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 16px;
+}
+.cardButtons button{
+  background-color: var(--background-color);
+  width: 119px;
+  height: 37px;
+  border: 1px solid var(--gray-color);
+  color: var(--gray-color);
+  font-weight: 500;
+  font-size: 16px;
+}
+.cardButtons button img{
+  border: none;
+  padding-left: 8px;
+}

@@ -305,3 +305,15 @@ body{
   border: none;
   padding-left: 8px;
 }
+
+#dots{
+  position: absolute;
+  top: 955px;
+  left: 16px
+}
+
+#square{
+  position: absolute;
+  top: 1160px;
+  right: 0px;
+}

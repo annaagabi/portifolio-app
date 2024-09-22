@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks, ArrowRight, ProjectOne, ProjectTwo, ProjectThree, MoreEqual, ArrowEquivalence } from './assets/images';
+import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks, ArrowRight, ProjectOne, ProjectTwo, ProjectThree, MoreEqual, ArrowEquivalence, Dots, Square } from './assets/images';
 
 export default function App() {
 
@@ -86,6 +86,8 @@ export default function App() {
               
             </div>
           </div>
+          <img id={styles.square} src={Square} alt="Imagem de um quadrado com lados na cor branca" />
+          <img id={styles.dots} src={Dots} alt="Pontos brancos" />
 
           <div className={styles.cardContainer}>
 

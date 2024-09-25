@@ -71,7 +71,7 @@ export default function App() {
       </main>
 
        <section className={styles.phrasesContainer}>
-        <img src={SquarePhrases} alt="Imagem de um quadrado cinza cortado ao meio" />
+        <img src={SquarePhrases} id={styles.squarePhrases} alt="Imagem de um quadrado cinza cortado ao meio" />
           <div className={styles.phrasesContent}>
             <img src={Marks} alt="Aspas duplas na cor cinza" />
             <p>With great power comes great electricity bill</p>

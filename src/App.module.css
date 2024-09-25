@@ -313,6 +313,8 @@ body{
   gap: 8px;
   padding-left: 8px;
   flex-wrap: wrap;
+  line-height: 4px;
+  padding-bottom: 4px;
 }
 
 .cardTools p{

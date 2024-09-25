@@ -21,6 +21,8 @@ body{
 
 }
 
+/* HEADER */
+
 .header{
   width: 1024px;
   height: 61px;
@@ -96,6 +98,8 @@ body{
   background-color: var(--gray-color);
 }
 
+/* MAIN */
+
 .mainContainer{
   display: flex;
   align-items: center;
@@ -168,16 +172,62 @@ body{
   margin-left: 8px;
 }
 
-/* .phrasesContainer{
+/* FIRST SECTION */
+
+.phrasesContainer{
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   flex-direction: column;
   text-align: right;
+  margin-top: 112px;
 }
-.phrasesContainer p{
+
+.phrasesContent{
+  position: relative;
+}
+.phrasesContent p{
   text-align: right;
-} */
+  color: var(--white-color);
+  border: 1px solid var(--gray-color);
+  padding: 32px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.phrasesContent img{
+  position: absolute;
+  left: 11px;
+  top: -10px;
+  width: 42px;
+  height: 29px;
+}
+
+.autorPhrases{
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.autorPhrases p{
+  text-align: right;
+  color: var(--white-color);
+  border: 1px solid var(--gray-color);
+  padding: 32px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.autorPhrases img{
+  position: absolute;
+  width: 42px;
+  height: 29px;
+  top: -10px;
+  right: 16px;
+}
+
+/* SECOND SECTION */
 
 .projectContainer{
   display: flex;

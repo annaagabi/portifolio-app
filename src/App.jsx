@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks, ArrowRight, ProjectOne, ProjectTwo, ProjectThree, MoreEqual, ArrowEquivalence, Dots, Square, SquarePhrases } from './assets/images';
+import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks, ArrowRight, ProjectOne, ProjectTwo, ProjectThree, MoreEqual, ArrowEquivalence, Dots, Square, SquarePhrases, SquareSkills } from './assets/images';
 
 export default function App() {
 
@@ -157,6 +157,83 @@ export default function App() {
                 </div>
             </div>
 
+          </div>
+        </section>
+
+        <section className={styles.skillsContainer}>
+          <div className={styles.skillsTitle}>
+            <h2><span>#</span>skills</h2>
+            <div className={styles.linePurpleSkills}></div>
+          </div>
+
+          <div className={styles.skillsContent}>
+            <img src={SquareSkills} alt="Imagem com vários quadrados" />
+            <div className={styles.skillsCardsContainer}>
+              <div className={styles.columCard}>
+                <div className={styles.skillsCard}>
+                  <h5>Languages</h5>
+                  <div className={styles.skillsTools}>
+                    <p>TypeScript</p>
+                    <p>Lua</p>
+                    <p>Python</p>
+                    <p>JavaScript</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className={styles.columCard}>
+                <div className={styles.skillsCard}>
+                  <h5>Databases</h5>
+                  <div className={styles.skillsTools}>
+                    <p>SQLite</p>
+                    <p>PostgreSQL</p>
+                    <p>Mongo</p>
+                  </div>
+                </div>
+                
+                <div className={styles.skillsCard}>
+                  <h5>Other</h5>
+                  <div className={styles.skillsTools}>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>EJS</p>
+                    <p>SCSS</p>
+                    <p>REST</p>
+                    <p>Jinja</p>
+                  </div>
+                </div>
+
+              </div>
+              <div className={styles.columCard}>
+                <div className={styles.skillsCard}>
+                  <h5>Tools</h5>
+                  <div className={styles.skillsTools}>
+                    <p>VSCode</p>
+                    <p>Neovim</p>
+                    <p>Linux</p>
+                    <p>Figma</p>
+                    <p>XFCE</p>
+                    <p>Arch</p>
+                    <p>Git</p>
+                    <p>Font Awesome</p>
+                  </div>
+                </div>
+
+                <div className={styles.skillsCard}>
+                  <h5>Frameworks</h5>
+                  <div className={styles.skillsTools}>
+                    <p>React</p>
+                    <p>Vue</p>
+                    <p>Disnake</p>
+                    <p>Discord.js</p>
+                    <p>Flask</p>
+                    <p>Express.js</p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
           </div>
         </section>
 

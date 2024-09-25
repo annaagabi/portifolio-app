@@ -462,3 +462,73 @@ body{
 .columCard:last-child .skillsCard{
   width: 196px;
 }
+
+/* QUARTA SEÇÃO */
+
+.aboutContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 112px;
+  gap: 116px;
+}
+#aboutMan{
+  height: 508px;
+  width: 343px;
+}
+
+#dotsAbout {
+  position: absolute;
+  right: 0;
+  top: 2294px
+}
+
+#squareAbout{
+  position: absolute;
+  left: 0px;
+  top: 2125px;
+}
+
+.aboutContent{
+  display: flex;
+  flex-direction: column;
+}
+.aboutTitle{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+.aboutTitle h2{
+  color: var(--white-color);
+  font-size: 32px;
+  font-weight: 500;
+}
+.aboutTitle span{
+  color: var(--purple-color);
+}
+
+.linePurpleAbout{
+  background-color: var(--purple-color);
+  width: 326px;
+  height: 1px;
+}
+
+.aboutText{
+  width: 515px;
+  line-height: 26px;
+}
+.aboutText p{
+  color: var(--gray-color);
+  font-size: 16px;
+  
+}
+.aboutText button{
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: 1px solid var(--purple-color);
+  background-color: var(--background-color);
+  margin-top: 27px;
+}

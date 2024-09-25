@@ -114,8 +114,8 @@ export default function App() {
                   <p>hosting</p>
                 </div>
                 <div className={styles.cardButtons}>
-                  <button>Live<img src={ArrowEquivalence} alt="" /></button>
-                  <button>Cached<img src={MoreEqual} alt="" /></button>
+                  <button>Live<img src={ArrowEquivalence} alt="Seta com duas pontas" /></button>
+                  <button>Cached<img src={MoreEqual} alt="Sinal de maior igual" /></button>
                 </div>
             </div>
             <div className={styles.card}>
@@ -137,7 +137,7 @@ export default function App() {
                   <p>bot</p>
                 </div>
                 <div className={styles.cardButtons}>
-                  <button>Live<img src={ArrowEquivalence} alt="" /></button>
+                  <button>Live<img src={ArrowEquivalence} alt="Seta com duas pontas" /></button>
                 </div>
             </div>
 
@@ -153,7 +153,7 @@ export default function App() {
                   <p>Get answers to your kahoot quiz</p>
                 </div>
                 <div className={styles.cardButtons}>
-                  <button>Live<img src={ArrowEquivalence} alt="" /></button>
+                  <button>Live<img src={ArrowEquivalence} alt="Seta com duas pontas" /></button>
                 </div>
             </div>
 

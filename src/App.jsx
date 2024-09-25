@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks, ArrowRight, ProjectOne, ProjectTwo, ProjectThree, MoreEqual, ArrowEquivalence, Dots, Square, SquarePhrases, SquareSkills } from './assets/images';
+import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks, ArrowRight, ProjectOne, ProjectTwo, ProjectThree, MoreEqual, ArrowEquivalence, Dots, Square, SquarePhrases, SquareSkills, SquareAbout, DotsAbout, AboutMan, ArrowAbout } from './assets/images';
 
 export default function App() {
 
@@ -236,6 +236,24 @@ export default function App() {
             </div>
           </div>
         </section>
+
+        <div className={styles.aboutContainer}>
+          <img src={DotsAbout} id={styles.dotsAbout} alt="Pontos brancos que formam um quadrado" />
+          <img src={SquareAbout} id={styles.squareAbout} alt="Meio quadrado na cor cinzaz" />
+          <div className={styles.aboutContent}>
+            <div className={styles.aboutTitle}>
+              <h2><span>#</span>about-me</h2>
+              <div className={styles.linePurpleAbout}></div>
+            </div>
+            <div className={styles.aboutText}>
+              <p>Hello, i’m Elias!</p>
+              <p>I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. </p>
+              <p>Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
+              <button>Read more <img src={ArrowAbout} alt="Seta na cor branca apontando para a direita" />  </button>
+            </div>
+          </div>
+          <img src={AboutMan} id={styles.aboutMan} alt="" />
+        </div>
 
     </div>
   );

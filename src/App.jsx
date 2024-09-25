@@ -237,7 +237,7 @@ export default function App() {
           </div>
         </section>
 
-        <div className={styles.aboutContainer}>
+        <section className={styles.aboutContainer}>
           <img src={DotsAbout} id={styles.dotsAbout} alt="Pontos brancos que formam um quadrado" />
           <img src={SquareAbout} id={styles.squareAbout} alt="Meio quadrado na cor cinzaz" />
           <div className={styles.aboutContent}>
@@ -253,7 +253,7 @@ export default function App() {
             </div>
           </div>
           <img src={AboutMan} id={styles.aboutMan} alt="" />
-        </div>
+        </section>
 
     </div>
   );

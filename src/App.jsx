@@ -69,10 +69,17 @@ export default function App() {
         </section>
        
       </main>
-       {/* <section className={styles.phrasesContainer}>
-          <p>With great power comes great electricity bill</p>
-          <p>- Dr. Who</p>
-        </section> */}
+
+       <section className={styles.phrasesContainer}>
+          <div className={styles.phrasesContent}>
+            <img src={Marks} alt="Aspas duplas na cor cinza" />
+            <p>With great power comes great electricity bill</p>
+          </div>
+          <div className={styles.autorPhrases}>
+            <img src={Marks} alt="Aspas duplas na cor cinza" />
+            <p>- Dr. Who</p>
+          </div>
+        </section>
 
         <section className={styles.projectContainer}>
           <div className={styles.projectContent}>

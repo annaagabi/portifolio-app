@@ -183,6 +183,12 @@ body{
   margin-top: 112px;
 }
 
+.phrasesContainer img:first-child{
+  position: absolute;
+  top: 672px;
+  right: 0;
+}
+
 .phrasesContent{
   position: relative;
 }

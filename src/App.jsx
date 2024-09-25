@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks, ArrowRight, ProjectOne, ProjectTwo, ProjectThree, MoreEqual, ArrowEquivalence, Dots, Square } from './assets/images';
+import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks, ArrowRight, ProjectOne, ProjectTwo, ProjectThree, MoreEqual, ArrowEquivalence, Dots, Square, SquarePhrases } from './assets/images';
 
 export default function App() {
 
@@ -71,6 +71,7 @@ export default function App() {
       </main>
 
        <section className={styles.phrasesContainer}>
+        <img src={SquarePhrases} alt="Imagem de um quadrado cinza cortado ao meio" />
           <div className={styles.phrasesContent}>
             <img src={Marks} alt="Aspas duplas na cor cinza" />
             <p>With great power comes great electricity bill</p>

@@ -183,7 +183,7 @@ body{
   margin-top: 112px;
 }
 
-.phrasesContainer img:first-child{
+#squarePhrases{
   position: absolute;
   top: 672px;
   right: 0;

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks, ArrowRight, ProjectOne, ProjectTwo, ProjectThree, MoreEqual, ArrowEquivalence, Dots, Square, SquarePhrases, SquareSkills, SquareAbout, DotsAbout, AboutMan, ArrowAbout } from './assets/images';
+import { LogoDefault, LogoOutline, ArrowDown, GitHubIcon, DribbleIcon, FigmaIcon, HeroMan, Marks, ArrowRight, ProjectOne, ProjectTwo, ProjectThree, MoreEqual, ArrowEquivalence, Dots, Square, SquarePhrases, SquareSkills, SquareAbout, DotsAbout, AboutMan, ArrowAbout, DotsContact, Discord, Email } from './assets/images';
 
 export default function App() {
 
@@ -253,6 +253,24 @@ export default function App() {
             </div>
           </div>
           <img src={AboutMan} id={styles.aboutMan} alt="" />
+        </section>
+
+        <section className={styles.contactContainer}>
+        <img src={DotsContact} id={styles.dotsContact} alt="" />
+          <div className={styles.contactContent}>
+            <div className={styles.contactTitle}>
+              <h2><span>#</span>contacts</h2>
+              <div className={styles.linePurpleContact}></div>
+            </div>
+            <div className={styles.contactText}>
+              <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
+            </div>
+          </div>
+          <div className={styles.contactCard}>
+            <h5>Message me here</h5>
+            <p><img src={Discord} alt="" />!Anna#3519</p>
+            <p><img src={Email} alt="" />anna@anna.me</p>
+          </div>
         </section>
 
     </div>

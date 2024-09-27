@@ -273,6 +273,33 @@ export default function App() {
           </div>
         </section>
 
+        <footer className={styles.footerContainer}>
+          <div className={styles.footerContent}>
+
+            <div className={styles.footerInfo}>
+              <div className={styles.footerTitle}>
+                <div className={styles.footerlogo}>
+                  <img src={LogoDefault} alt="Imagem do portfolio logo" />
+                  <h1>Anna</h1>
+                </div>
+                <p>anna@anna-dev.ml</p>
+              </div>
+              <p>Web designer and front-end developer</p>
+            </div>
+
+            <div className={styles.footerMedia}>
+              <h3>Media</h3>
+              <div className={styles.footerImages}>
+                <img src={GitHubIcon} alt="Logo do GitHub" />
+                <img src={FigmaIcon} alt="Logo do figma" />
+                <img src={Discord} alt="Logo do Discord" />
+              </div>
+            </div>
+            
+          </div>
+          <p>© Copyright 2022. Made by Elias</p>
+        </footer>
+
     </div>
   );
 }
